@@ -6,9 +6,9 @@ The **Zaliapin–Zion declustering algorithm** is a physics-based method designe
 
 In this assignment, we implement the Zaliapin–Zion declustering algorithm using a dataset of seismic events in Greece. Each seismic event is described by its timestamp, geographic coordinates (latitude and longitude), and magnitude. The η value for each event is computed with respect to all prior events using the formula:
 
-\[
+[
 \eta = \frac{r}{10^{-bM}} \cdot t^q
-\]
+]
 
 Where:
 - \( r \) is the spatial distance between events (computed using the Haversine formula),
